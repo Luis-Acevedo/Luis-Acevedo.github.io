@@ -11,16 +11,16 @@ entry.1533605505=garbageName
 
 
 <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdhuDMKZxl6lNnCFHctXtU6s2n_CZwqCVjFg1r4TvcvAsLOwQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-  garbageName:<br>
+  Your Name:<br>
   <input type="text" name="entry.1533605505" id="entry.1533605505"><br>
 
-  garbageEmail:<br>
+  Your Email:<br>
   <input type="text" name="entry.683228370" id="entry.683228370">
 
-  garbageSubject:<br>
+  Subject:<br>
   <input type="text" name="entry.1794083874" id="entry.1794083874">
 
-  garbageMessage:<br>
+  Message:<br>
   <input type="text" name="entry.1565749702" id="entry.1565749702">
   
   <input type="submit" value="Submit">
