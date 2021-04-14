@@ -3,8 +3,8 @@ You can buy it from: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-we
 
 
 
-https://docs.google.com/forms/d/e/1FAIpQLSdhuDMKZxl6lNnCFHctXtU6s2n_CZwqCVjFg1r4TvcvAsLOwQ/viewform?usp=pp_url&
-entry.1533605505=garbageName
+https://docs.google.com/forms/d/e/1FAIpQLSdhuDMKZxl6lNnCFHctXtU6s2n_CZwqCVjFg1r4TvcvAsLOwQ/viewform?usp=pp_url
+&entry.1533605505=garbageName
 &entry.683228370=garbageEmail
 &entry.1794083874=garbageSubject
 &entry.1565749702=garbageMessage
