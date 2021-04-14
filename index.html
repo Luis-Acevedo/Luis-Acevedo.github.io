@@ -593,52 +593,33 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <!-- <form action="https://docs.google.com/forms/d/e/1FAIpQLSdhuDMKZxl6lNnCFHctXtU6s2n_CZwqCVjFg1r4TvcvAsLOwQ/formResponse?" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="entry.1533605505" class="form-control" id="entry.1533605505" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="text" class="form-control" name="entry.683228370" id="entry.683228370" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="entry.1794083874" id="entry.1794083874" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div> -->
-              <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdhuDMKZxl6lNnCFHctXtU6s2n_CZwqCVjFg1r4TvcvAsLOwQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+            <form name="gform" id="gform" enctype="text/plain"
+            action="https://docs.google.com/forms/d/e/1FAIpQLSdhuDMKZxl6lNnCFHctXtU6s2n_CZwqCVjFg1r4TvcvAsLOwQ/formResponse?"
+            target="hidden_iframe" onsubmit="submitted=true;">
+            <div class="row">
+              <div class="form-group col-md-6">
                 Your Name:<br>
-                <input type="text" name="entry.1533605505" id="entry.1533605505"><br>
-              
+                <input type="text" name="entry.1533605505" id="entry.1533605505" class="form-control" required><br>
+              </div>
+              <div class="form-group col-md-6">
                 Your Email:<br>
-                <input type="text" name="entry.683228370" id="entry.683228370"><br>
-              
-                Subject:<br>
-                <input type="text" name="entry.1794083874" id="entry.1794083874"><br>
-              
-                Message:<br>
-                <input type="text" name="entry.1565749702" id="entry.1565749702"><br>
-                <br>
-                
-                <input type="submit" value="Submit">
-              </form>
-              
-              <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
-
-
+                <input type="text" name="entry.683228370" id="entry.683228370" class="form-control" required><br>
+              </div>
+            </div>
+            <div class="form-group">
+              Subject:<br>
+              <input type="text" name="entry.1794083874" id="entry.1794083874" class="form-control" required><br>
+            </div>
+            <div class="form-group">
+              Message:<br>
+              <!-- <input type="text" name="entry.1565749702" id="entry.1565749702" class="form-control" required><br> -->
+              <textarea type="text" class="form-control" name="entry.1565749702" id="entry.1565749702" rows="10" required></textarea>
+            </div>
+            <br>
+            <input type="submit" value="Submit">
+          </form>
+        
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
         </div>
 
       </div>
